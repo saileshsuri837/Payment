@@ -9,4 +9,7 @@ import Foundation
 
 public struct MobilePayment {
     public var test = "hello world this is payment framework"
+    public init() {
+        
+    }
 }

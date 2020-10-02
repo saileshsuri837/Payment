@@ -22,11 +22,11 @@
 		</data>
 		<key>Modules/Payment.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		TVdgu9eqmFhIh5+2MQ0ScGM1NCQ=
+		Rqlp4zAerG3ae/kWmAdGMB+/Abk=
 		</data>
 		<key>Modules/Payment.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		UurAsPuKZBf+BKQgkotEK7uh0rw=
+		rknHVkLccBpyxYJyJflIDQPhHSo=
 		</data>
 		<key>Modules/Payment.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/Payment.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		TVdgu9eqmFhIh5+2MQ0ScGM1NCQ=
+		Rqlp4zAerG3ae/kWmAdGMB+/Abk=
 		</data>
 		<key>Modules/Payment.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		UurAsPuKZBf+BKQgkotEK7uh0rw=
+		rknHVkLccBpyxYJyJflIDQPhHSo=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -72,14 +72,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			eZgQI/sI3TJPjXW5isgwF73hyFpY1NR4NkoyswKIcns=
+			0byiLm0YRGywJmqhn2BY8aDSszWl892yhfOHGF0xQ7Q=
 			</data>
 		</dict>
 		<key>Modules/Payment.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZNVbnepKM1OgdZwsNnJJw5nmqGEEqhmj0w+/B6Y1htc=
+			FzJFa0ieye0N7yc/ZL95B7ZoIIUrUBkE8JRXTWh+GG4=
 			</data>
 		</dict>
 		<key>Modules/Payment.swiftmodule/arm64.swiftdoc</key>
@@ -93,14 +93,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			eZgQI/sI3TJPjXW5isgwF73hyFpY1NR4NkoyswKIcns=
+			0byiLm0YRGywJmqhn2BY8aDSszWl892yhfOHGF0xQ7Q=
 			</data>
 		</dict>
 		<key>Modules/Payment.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZNVbnepKM1OgdZwsNnJJw5nmqGEEqhmj0w+/B6Y1htc=
+			FzJFa0ieye0N7yc/ZL95B7ZoIIUrUBkE8JRXTWh+GG4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

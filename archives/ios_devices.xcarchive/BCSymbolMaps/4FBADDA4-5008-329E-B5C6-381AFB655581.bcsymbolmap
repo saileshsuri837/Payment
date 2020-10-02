@@ -41,6 +41,7 @@ $s7Payment06MobileA0Vwca
 $s7Payment06MobileA0Vwcp
 $s7Payment06MobileA0Vwxx
 $s7Payment06MobileA0VwCP
+init
 test.modify
 test.set
 test.get
