@@ -10,6 +10,7 @@
 		1B88889525274DA0003717E5 /* Payment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B88888B25274DA0003717E5 /* Payment.framework */; };
 		1B88889A25274DA0003717E5 /* PaymentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B88889925274DA0003717E5 /* PaymentTests.swift */; };
 		1B88889C25274DA0003717E5 /* Payment.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B88888E25274DA0003717E5 /* Payment.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B8888A825274DB3003717E5 /* MobilePayment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B8888A725274DB3003717E5 /* MobilePayment.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		1B88889425274DA0003717E5 /* PaymentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaymentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B88889925274DA0003717E5 /* PaymentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentTests.swift; sourceTree = "<group>"; };
 		1B88889B25274DA0003717E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B8888A725274DB3003717E5 /* MobilePayment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobilePayment.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				1B88888E25274DA0003717E5 /* Payment.h */,
+				1B8888A725274DB3003717E5 /* MobilePayment.swift */,
 				1B88888F25274DA0003717E5 /* Info.plist */,
 			);
 			path = Payment;
@@ -147,6 +150,7 @@
 				TargetAttributes = {
 					1B88888A25274DA0003717E5 = {
 						CreatedOnToolsVersion = 12.0.1;
+						LastSwiftMigration = 1200;
 					};
 					1B88889325274DA0003717E5 = {
 						CreatedOnToolsVersion = 12.0.1;
@@ -194,6 +198,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B8888A825274DB3003717E5 /* MobilePayment.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +346,7 @@
 		1B8888A025274DA0003717E5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = N23CH7UAB8;
@@ -357,6 +363,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Venkat-Lega.Payment";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -365,6 +372,7 @@
 		1B8888A125274DA0003717E5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = N23CH7UAB8;
@@ -389,6 +397,7 @@
 		1B8888A325274DA0003717E5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N23CH7UAB8;
 				INFOPLIST_FILE = PaymentTests/Info.plist;
@@ -407,6 +416,7 @@
 		1B8888A425274DA0003717E5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N23CH7UAB8;
 				INFOPLIST_FILE = PaymentTests/Info.plist;
